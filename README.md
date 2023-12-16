@@ -54,9 +54,3 @@ Assumptions: Assumes that book value growth is a reliable indicator of future va
 
 Note
 This script serves as a demonstration, and users are encouraged to adapt and customize it based on specific requirements or preferences. It's recommended to thoroughly understand both methodologies and consider factors such as the company's financial structure and industry when choosing an intrinsic value calculation method.
-
-References
-Alpha Vantage API
-yfinance Documentation
-Discounted Cash Flow (DCF) Method
-Feel free to explore, compare, and adapt the script to suit your investment analysis needs!

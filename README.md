@@ -3,7 +3,8 @@
 Overview
 This Python script provides two methodologies for calculating the intrinsic value of a stock: the Discounted Cash Flow (DCF) method and the Book Value Growth (BVG) method. Both approaches offer distinct perspectives on valuing a company, allowing investors to make more informed decisions based on their preferences and data availability.
 
-Discounted Cash Flow (DCF) Method
+
+## Discounted Cash Flow (DCF) Method
 
 The DCF method estimates intrinsic value by projecting future cash flows and discounting them to present value. The script utilizes the Alpha Vantage API to fetch relevant financial data and calculates intrinsic value based on:
 
@@ -17,27 +18,34 @@ Weighted Average Cost of Capital (WACC)
 
 Perpetual Growth Rate
 
-Book Value Growth (BVG) Method
-Methodology
+
+
+## Book Value Growth (BVG) Method
+
 The BVG method estimates intrinsic value by projecting the company's book value growth. The script fetches company overview and balance sheet data and calculates intrinsic value based on:
 
 Current Book Value per Share
+
 Book Value Growth Rate
+
 Number of Years to Project
+
 Ten-Year Treasury Rate
 
-Comparison
+## Comparison
 Both methods offer valuable insights into a company's intrinsic value, yet they differ in their core assumptions and applications.
 
-Strengths and Considerations:
-DCF Method:
+
+### DCF Method:
+
 Cash Flow Focus: DCF method considers future cash flows, which is particularly useful for companies with unpredictable earnings.
 
 Dynamic Approach: Takes into account the time value of money, providing a more dynamic valuation.
 
 Complexity: Requires more data inputs, including WACC and perpetual growth rate, which might be challenging for certain companies or industries.
 
-BVG Method:
+### BVG Method:
+
 Simplicity: BVG method is simpler, relying on historical book value trends and projecting forward.
 
 Stability: Suitable for companies with stable book value growth, providing a more straightforward valuation for certain industries.
